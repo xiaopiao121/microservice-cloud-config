@@ -1,5 +1,5 @@
 #注意：如果在记事本上编写，下面的缩进不要使用Tab来缩进，不然报错。
-springs:
+spring:
   profiles:
     active: dev #激活开发环境配置
 
@@ -37,7 +37,7 @@ eureka:
   instance:
     instanceId: ${spring.application.name}:${server.port} #microservice-product:8001
     prefer-ip-address: true #访问路径就会显示成ip地址。
-################################################################
+---
 server:
   port: 8001
 mybatis:
